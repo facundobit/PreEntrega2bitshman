@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex; 
+  justify-content:space-between;
+  padding: 30px;
+  text-transform: capitalize;
+}
+
+aside{
+  display: inline-flex;
+  color: pink;
+  font-size: 30px;
+  font-weight: 60px;
+  align-items: center;
+  
+
+}
+aside a{
+color: white;
+text-decoration: none;
+}
+aside span :hover{
+  color: pink;
+}
+aside img{
+  width: 80px;
+  height: 80px;
+  
+}
+
+.barra ul{
+  list-style: none;
+}
+.barra ul li {
+  display: inline-block;
+}
+.barra a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.barra a:hover{
+  color: pink;
+}
+
+main{
+  height: 500px;
+  width: 100%;
+  background-color: rgb(69, 69, 69);
+  background-image:url(img/bull\ lindo.jpg) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: pink;
+}
+
+.call {
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.44);
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.call p{
+  margin-bottom: 20px;
+}
+
+.call a{
+  color: white;
+  background-color:pink;
+  text-decoration: none;
+  padding: 10px 20px;
+
+}
+.call a:hover{
+  color: black;
+}
+
+
+.almohadones div {
+  background-color: rgb(1, 1, 1);
+  border: solid rgba(255, 255, 255, 0.848);
+  display: inline-block;
+  width:100%;
+  height: 400px;
+  
+}
+.almohadones div p {
+color: white;
+}
+.almohadones div h2 {
+  color: white;
+  }
+
+.almohadones img{
+  width: 300px;
+  height: 300px;
+  border: solid pink;
+
+}
+.cortinas div{
+  width: 100%;
+  height: 400px;
+  border: solid rgba(255, 255, 255, 0.848);
+  background-color: rgb(0, 0, 0);
+}
+.cortinas p{
+  color: white;
+}
+.cortinas h2{
+  color: white;
+}
+.cortinas img{
+  width: 300px;
+  height: 300px;
+  border: 2px solid pink;
+}
+
+
+
+
+
+
+/* .productosDestacados div {
+  border: 1px solid rgb(47, 0, 44);
+  width: 220px;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(47, 0, 44);
+  display: inline-block;
+  padding: 20px;
+}
+.productosDestacados h2 {
+  background-color:rgba(47, 0, 44, 0.984); ;
+  text-align: center;
+  color: white;
+  padding: 15px;}
+  
+.productosDestacados div h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.productosDestacados div a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  background-color: rgb(255, 254, 254);
+  padding: 10px;
+}
+
+
+.productosDestacados div img {
+  width: 200px;
+  height: 200px;
+} */
+
+
+
+
+.fixed{
+position: fixed;
+bottom: 80px;
+right: 80px;
+}
+
+
+/*-----footer----*/
+
+footer div{ 
+  padding: 30px;
+  width: 100%;
+  background-color: pink;
+  text-align: center; 
+}
+
+footer div p{ 
+  color: rgba(0, 0, 0, 0.773);
+}
